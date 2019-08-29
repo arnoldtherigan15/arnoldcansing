@@ -1,0 +1,112 @@
+body {
+  text-align: center;
+  background-image: url('/images/bg2.jpg');
+  margin-top: 0;
+  padding-top: 0;
+}
+.container {
+  
+  /* background-color: #636e72; */
+  width: 80%;
+  margin: auto;
+  /* margin-top: 0;
+  padding-top: 0; */
+}
+
+#title {
+  font-size: 5rem;
+  color: white;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #000;
+  /* position: relative;
+  top: 390px;
+  left: 305px; */
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+img {
+  width: 13vw;
+  /* text-align: left; */
+  margin-top: 0;
+  padding-top: 0;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-weight: bold;
+  font-size: 3vw;
+  text-shadow: 3px 0 #000;
+  font-family: sans-serif;
+  margin-top: 10vh;
+}
+
+.q {
+  
+}
+
+.w {
+  background-image: url(/images/black.png);
+}
+
+.e {
+  background-image: url(/images/black.png);
+}
+
+.r {
+  
+}
+
+.t {
+  background-image: url(/images/black.png);
+}
+
+.y {
+  background-image: url(/images/black.png);
+}
+
+.u {
+
+}
+
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+
+
+.sing {
+  outline: none;
+  border: 5px solid #dfe6e9;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 5px;
+  width: 8vw;
+  height: 40vh;
+  text-align: center;
+  margin-top: 5vh;
+  background-color: white;
+}
+
+
+.sing1 {
+  outline: none;
+  /* border: 1px solid black; */
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  font-weight: bold;
+  color: white;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 5px;
+  width: 8vw;
+  height: 40vh;
+  text-align: center;
+  margin-top: 5vh;
+  background-color: white;
+}
