@@ -7,7 +7,7 @@
 }
 body {
   text-align: center;
-  background-image: url('/images/bg2.jpg');
+  background-image: url('images/bg2.jpg');
   margin-top: 0;
   padding-top: 0;
 }
@@ -49,33 +49,26 @@ footer {
   margin-top: 10vh;
 }
 
-.q {
-  
-}
+
 
 .w {
-  background-image: url(/images/black.png);
+  background-image: url(images/black.png);
 }
 
 .e {
-  background-image: url(/images/black.png);
+  background-image: url(images/black.png);
 }
 
-.r {
-  
-}
+
 
 .t {
-  background-image: url(/images/black.png);
+  background-image: url(images/black.png);
 }
 
 .y {
-  background-image: url(/images/black.png);
+  background-image: url(images/black.png);
 }
 
-.u {
-
-}
 
 
 .pressed {
