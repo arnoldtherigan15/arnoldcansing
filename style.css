@@ -13,11 +13,9 @@ body {
 }
 .container {
   
-  /* background-color: #636e72; */
   width: 80%;
   margin: auto;
-  /* margin-top: 0;
-  padding-top: 0; */
+
 }
 
 #title {
@@ -25,16 +23,12 @@ body {
   color: white;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #000;
-  /* position: relative;
-  top: 390px;
-  left: 305px; */
   margin-top: 20px;
   margin-bottom: 0;
 }
 
 img {
   width: 13vw;
-  /* text-align: left; */
   margin-top: 0;
   padding-top: 0;
 
@@ -53,20 +47,24 @@ footer {
 
 .w {
   background-image: url(images/black.png);
+  color: white !important;
 }
 
 .e {
   background-image: url(images/black.png);
+  color: white !important;
 }
 
 
 
 .t {
   background-image: url(images/black.png);
+  color: white !important;
 }
 
 .y {
   background-image: url(images/black.png);
+  color: white !important;
 }
 
 
@@ -85,23 +83,6 @@ footer {
   font-family: 'Arvo', cursive;
   font-weight: bold;
   color: black;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 5px;
-  width: 8vw;
-  height: 40vh;
-  text-align: center;
-  margin-top: 5vh;
-  background-color: white;
-}
-
-
-.sing1 {
-  outline: none;
-  /* border: 1px solid black; */
-  font-size: 2rem;
-  font-family: 'Arvo', cursive;
-  font-weight: bold;
-  color: white;
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 5px;
   width: 8vw;
