@@ -1,5 +1,3 @@
-// document.querySelector('button').addEventListener('click',whenClick);
-
 var buttonArr = document.querySelectorAll('.sing');
 for (var i = 0; i < buttonArr.length; i++) {
     buttonArr[i].addEventListener('click',function(){
@@ -17,29 +15,37 @@ document.addEventListener('keypress', function(event) {
 
 function makeSound (key) {
     if (key === 'q') {
-        var tom1 = new Audio ('sounds/do.mp3');
-        tom1.play();
+        var doo = new Audio ('sounds/do.mp3');
+        doo.playbackRate = 2;
+        doo.play();
     } else if (key === 'w') {
-        var tom2 = new Audio ('sounds/re.mp3');
-        tom2.play();
+        var re = new Audio ('sounds/re.mp3');
+        re.playbackRate = 2;
+        re.play();
     } else if (key === 'e') {
-        var tom3 = new Audio ('sounds/mi.mp3');
-        tom3.play();
+        var mi = new Audio ('sounds/mi.mp3');
+        mi.playbackRate = 2;
+        mi.play();
     } else if (key === 'r') {
-        var tom4 = new Audio ('sounds/fa.mp3');
-        tom4.play();
+        var fa = new Audio ('sounds/fa.mp3');
+        fa.playbackRate = 2;
+        fa.play();
     } else if (key === 't') {
-        var crash = new Audio ('sounds/sol.mp3');
-        crash.play();
+        var sol = new Audio ('sounds/sol.mp3');
+        sol.playbackRate = 1.5;
+        sol.play();
     } else if (key === 'y') {
-        var kick = new Audio ('sounds/la.mp3');
-        kick.play();
+        var la = new Audio ('sounds/la.mp3');
+        la.playbackRate = 2;
+        la.play();
     } else if (key === 'u') {
-        var snare = new Audio ('sounds/si.mp3');
-        snare.play();
+        var si = new Audio ('sounds/si.mp3');
+        si.playbackRate = 2;
+        si.play();
     } else if (key === 'i') {
-        var snare = new Audio ('sounds/du.mp3');
-        snare.play();
+        var du = new Audio ('sounds/du.mp3');
+        du.playbackRate = 2;
+        du.play();
     }
 }
 function buttonAnimation (currentKey) {
