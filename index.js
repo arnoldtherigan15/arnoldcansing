@@ -55,3 +55,15 @@ function buttonAnimation (currentKey) {
         activeButton.classList.remove('pressed');
     },150)
 }
+var i = 0;
+var txt = 'Arnold Can Sing!'
+var speed = 110;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.querySelector('#title').innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+typeWriter();
