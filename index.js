@@ -1,5 +1,3 @@
-// document.querySelector('button').addEventListener('click',whenClick);
-
 var buttonArr = document.querySelectorAll('.sing');
 for (var i = 0; i < buttonArr.length; i++) {
     buttonArr[i].addEventListener('click',function(){
