@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Arnold Can Sing!</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+ <div class="container">
+  <!-- <h1 id="title"><img src="https://data.whicdn.com/images/136249419/large.png" alt="gambar"></h1> -->
+  <h1 id="level-title">Touch Anywhere To Start!</h1>
+  <h1 class="soal1"></h1>
+  <h1 class="soal2"></h1>
+  
+  <div class="set">
+    <button id="q" class="q sing">q</button>
+    <button id="w" class="w sing">w</button>
+    <button id="e" class="e sing">e</button>
+    <button id="r" class="r sing">r</button>
+    <button id="t" class="t sing">t</button>
+    <button id="y" class="y sing">y</button>
+    <button id="u" class="u sing">u</button>
+    <button id="i" class="i sing">i</button>
+  </div>
+  <div class="menus">
+    <a href="">Home</a>
+  </div>
+ </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script>
+    var how = new Audio ('sounds/start.mp3');
+how.playbackRate = 1.5;
+how.play();
+    </script>
+
+  <script src="games.js"></script>
+  <footer>
+    &copy; Arnold Therigan
+  </footer>
+</body>
+
+</html>

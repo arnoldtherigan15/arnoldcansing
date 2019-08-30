@@ -31,15 +31,28 @@ body {
   text-shadow: 3px 0 #000;
 }
 
-#title {
-  font-size: 5rem;
+#title , .soal1, .soal2, #level-title {
+  font-size: 5vw;
   color: white;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #000;
+  text-shadow: 0.5vw 0.5vw #000;
   margin-top: 20px;
   margin-bottom: 0;
+  padding-top: 3vh;
 }
-
+span {
+  color: purple;
+  font-size: 5vw;
+  font-family: "Arvo", cursive;
+  /* text-shadow: 0.5vw 0.5vw #fff; */
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 3vh;
+}
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
 img {
   width: 13vw;
   margin-top: 0;
