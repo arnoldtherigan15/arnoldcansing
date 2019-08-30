@@ -100,7 +100,24 @@ footer {
   opacity: 0.5;
 }
 
+.playlist button {
+  outline: none;
+  border: 5px solid black;
+  font-size: 5vw;
+  font-family: 'Arvo', cursive;
+  font-weight: bold;
+  color: black;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 5px;
 
+  text-align: center;
+  margin-top: 3vh;
+  background-color: white;
+}
+.playlist a {
+  padding: 2vh 3vw;
+  text-decoration: none;
+}
 
 .sing {
   outline: none;

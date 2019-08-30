@@ -12,24 +12,25 @@
 <body>
 
  <div class="container">
-  <h1 id="title"><img src="https://data.whicdn.com/images/136249419/large.png" alt="gambar"></h1>
+  <!-- <h1 id="title"><img src="https://data.whicdn.com/images/136249419/large.png" alt="gambar"></h1> -->
+  <h1 id="level-title">Song Playlist</h1>
+
   
-  <div class="set">
-    <button class="q sing">q</button>
-    <button class="w sing">w</button>
-    <button class="e sing">e</button>
-    <button class="r sing">r</button>
-    <button class="t sing">t</button>
-    <button class="y sing">y</button>
-    <button class="u sing">u</button>
-    <button class="i sing">i</button>
+  <div class="playlist">
+  <button><a href="kartini.html">Ibu Kita Kartini</a></button>
+  <button><a href="">Balon Ku Ada Lima</a></button>
   </div>
   <div class="menus">
-    <a href="game.html">Teach Me to Sing!</a>
-    <a href="instruction.html">How to Sing?</a>
+    <a href="">Home</a>
   </div>
  </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script>
+    var how = new Audio ('sounds/start.mp3');
+how.playbackRate = 1.5;
+how.play();
+    </script>
+
   <script src="index.js"></script>
   <footer>
     &copy; Arnold Therigan
