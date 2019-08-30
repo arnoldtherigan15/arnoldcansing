@@ -91,7 +91,7 @@ function makeSound (key) {
       setTimeout(function () {
         $("body").removeClass("game-over");
       }, 200);
-      setInterval(function(){window.location.assign('balonku.html')},1000);
+      setInterval(function(){window.location.assign('cicak.html')},1000);
     
           }
 
