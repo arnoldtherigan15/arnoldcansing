@@ -6,11 +6,10 @@
 
 
 ### How to Play
-- Pilih lagu yang ada pada playlist
-- Sentuh apapun untuk mulai bermain
-- Click piano berdasarkan huruf yang ada di atas piano
-- Salah huruf maka kamu harus bermain lagi dari awal
-
+- Choose a Song in the playlist.
+- Click anywhere to start the game.
+- Remember the numbers and click the piano based on given numbers.
+- If you success Arnold can sing with you.
 
 
 ### Build using:
