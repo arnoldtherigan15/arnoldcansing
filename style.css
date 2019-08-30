@@ -117,6 +117,7 @@ footer {
 .playlist a {
   padding: 2vh 3vw;
   text-decoration: none;
+  color: purple;
 }
 
 .sing {
