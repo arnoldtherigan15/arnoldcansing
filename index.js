@@ -2,6 +2,8 @@ var buttonArr = document.querySelectorAll('.sing');
 for (var i = 0; i < buttonArr.length; i++) {
     buttonArr[i].addEventListener('click',function(){
     var buttonInner = this.innerHTML;
+    console.log(buttonInner);
+    
     makeSound(buttonInner);
     buttonAnimation(buttonInner);
     })

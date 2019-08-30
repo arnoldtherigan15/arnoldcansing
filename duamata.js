@@ -28,14 +28,6 @@ for (var i = 0; i < buttonArr.length; i++) {
 
 }
 
-
-
-// document.addEventListener('keypress', function(event) {
-//    console.log(event.key);
-   
-//     makeSound(event.key);
-//     buttonAnimation(event.key);
-// });
 var indeks = 0;
 function makeSound (key) {
     if (key === '1') {
