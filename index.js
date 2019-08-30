@@ -67,3 +67,14 @@ function typeWriter() {
   }
 }
 typeWriter();
+
+document.querySelector('.start').addEventListener('click',function(){
+    var start = new Audio ('sounds/start.mp3');
+    start.playbackRate = 1;
+    start.play();
+})
+
+
+
+
+
