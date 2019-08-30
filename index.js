@@ -14,35 +14,35 @@ document.addEventListener('keypress', function(event) {
 });
 
 function makeSound (key) {
-    if (key === 'q') {
+    if (key === '1') {
         var doo = new Audio ('sounds/do.mp3');
         doo.playbackRate = 2;
         doo.play();
-    } else if (key === 'w') {
+    } else if (key === '2') {
         var re = new Audio ('sounds/re.mp3');
         re.playbackRate = 2;
         re.play();
-    } else if (key === 'e') {
+    } else if (key === '3') {
         var mi = new Audio ('sounds/mi.mp3');
         mi.playbackRate = 2;
         mi.play();
-    } else if (key === 'r') {
+    } else if (key === '4') {
         var fa = new Audio ('sounds/fa.mp3');
         fa.playbackRate = 2;
         fa.play();
-    } else if (key === 't') {
+    } else if (key === '5') {
         var sol = new Audio ('sounds/sol.mp3');
         sol.playbackRate = 1.5;
         sol.play();
-    } else if (key === 'y') {
+    } else if (key === '6') {
         var la = new Audio ('sounds/la.mp3');
         la.playbackRate = 2;
         la.play();
-    } else if (key === 'u') {
+    } else if (key === '7') {
         var si = new Audio ('sounds/si.mp3');
         si.playbackRate = 2;
         si.play();
-    } else if (key === 'i') {
+    } else if (key === '8') {
         var du = new Audio ('sounds/du.mp3');
         du.playbackRate = 2;
         du.play();

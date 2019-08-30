@@ -7,7 +7,7 @@ document.addEventListener('click',function(){
         $( "#level-title" ).fadeOut( 500, function() {
             // Animation complete.
           });
-        jawaban.innerHTML = 'qwer<span>|</span>teqyi<span>|</span>uytry<span>|</span>treq<span>|</span>wrewq';
+        jawaban.innerHTML = '1234<span>|</span>53168<span>|</span>76546<span>|</span>5431<span>|</span>24321';
         $( ".soal1" ).fadeOut( 20000, function() {
             // Animation complete.
           });
@@ -28,50 +28,48 @@ for (var i = 0; i < buttonArr.length; i++) {
 
 }
 
-
-
-document.addEventListener('keypress', function(event) {
-   console.log(event.key);
+// document.addEventListener('keypress', function(event) {
+//    console.log(event.key);
    
-    makeSound(event.key);
-    buttonAnimation(event.key);
-});
+//     makeSound(event.key);
+//     buttonAnimation(event.key);
+// });
 var indeks = 0;
 function makeSound (key) {
-    if (key === 'q') {
+    if (key === '1') {
         var doo = new Audio ('sounds/play/do.wav');
         doo.play();
         indeks++;
-    } else if (key === 'w') {
+    } else if (key === '2') {
         var re = new Audio ('sounds/play/re.wav');
         re.play();
         indeks++;
-    } else if (key === 'e') {
+    } else if (key === '3') {
         var mi = new Audio ('sounds/play/mi.wav');
         mi.play();
         indeks++;
-    } else if (key === 'r') {
+    } else if (key === '4') {
         var fa = new Audio ('sounds/play/fa.wav');
         fa.play();
         indeks++;
-    } else if (key === 't') {
+    } else if (key === '5') {
         var sol = new Audio ('sounds/play/sol.wav');
         sol.play();
         indeks++;
-    } else if (key === 'y') {
+    } else if (key === '6') {
         var la = new Audio ('sounds/play/la.wav');
         la.play();
         indeks++;
-    } else if (key === 'u') {
+    } else if (key === '7') {
         var si = new Audio ('sounds/play/si.wav');
         si.play();
         indeks++;
-    } else if (key === 'i') {
+    } else if (key === '8') {
         var du = new Audio ('sounds/play/du.wav');
         du.play();
         indeks++;
     } 
-    var jawabanSoal1 = 'qwerteqyiuytrytreqwrewq';
+    var jawabanSoal1 = '12345316876546543124321';
     console.log('ini adalah i = '+ indeks);
     
     
@@ -118,29 +116,3 @@ function buttonAnimation (currentKey) {
 }
 
 
-// document.querySelector('.start').addEventListener('click',function(){
-//     var start = new Audio ('sounds/start.mp3');
-//     start.playbackRate = 1;
-//     start.play();
-// })
-
-// --------------
-// var playSongArr = ['do','re','mi','fa'];
-
-// document.querySelector('.menus a').addEventListener('click',function(){
-
-//     for(var i = 0; i < playSongArr.length; i++) {
-//             var start = new Audio (`sounds/play/${playSongArr[i]}.mp3`);
-//             // start.playbackRate = 1;
-//             start.play();
-//         }
-// })
-
-// var start = new Audio (`sounds/play/${playSongArr[0]}.mp3`);
-//     // start.playbackRate = 1;
-//     start.play();
-// for(var i = 0; i < playSongArr.length; i++) {
-//     var start = new Audio (`sounds/play/${playSongArr[i]}.mp3`);
-//     // start.playbackRate = 1;
-//     start.play();
-// }
