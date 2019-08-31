@@ -1,41 +1,30 @@
 var userSong ='';
 var usersongArr = [];
-var started = false;
-var jawaban =  document.querySelector('.soal1')
-document.addEventListener('click',function(){
-    if (!started) {
-        $( "#level-title" ).fadeOut( 500, function() {
-            // Animation complete.
-          }); 
-        jawaban.innerHTML = '53533<span>|</span>45424<span>|</span>65436<span>|</span><br>4646788<span>|</span>35421';
-        $( ".soal1" ).fadeOut( 30000, function() {
-            // Animation complete.
-          });
-          started = true;
+var slideSource = document.getElementById('level-title');
+document
+    .getElementById('tes')
+    .onclick = function () {
+        slideSource
+            .classList
+            .add('fade');
+
+        document
+            .querySelector('.soal3')
+            .innerHTML = '535334<span>|</span>542465<span>|</span>436464<br><span>|</span>67883<span>|</span>5421';
+        document
+            .querySelector('.soal3')
+            .classList
+            .add('fadeSoal2');
     }
-}) 
 var buttonArr = document.querySelectorAll('.sing');
 for (var i = 0; i < buttonArr.length; i++) {
     buttonArr[i].addEventListener('click', function () {
         var buttonInner = this.innerHTML;
         userSong += buttonInner;
-
-        console.log(userSong);
-
         makeSound(buttonInner);
         buttonAnimation(buttonInner);
     })
-
 }
-
-
-
-// document.addEventListener('keypress', function(event) {
-//    console.log(event.key);
-   
-//     makeSound(event.key);
-//     buttonAnimation(event.key);
-// });
 var indeks = 0;
 function makeSound (key) {
     if (key === '1') {
@@ -73,39 +62,24 @@ function makeSound (key) {
     } 
     var jawabanSoal1 = '535334542465436464678835421';
     console.log('ini adalah i = '+ indeks);
-    
-    
-    // for (var i = 0; i < jawabanSoal1.length; i++ ) {
         if (userSong[indeks-1] === jawabanSoal1[indeks-1]) {
-            console.log(userSong[indeks-1] + '---' + jawabanSoal1[indeks-1]);
-            
+            console.log(userSong[indeks-1] + '---' + jawabanSoal1[indeks-1]);   
         }
-      
          else {
             var audio = new Audio("sounds/wrong.mp3");
             audio.play();
-            console.log("wrong");
-      
-      
-      $("body").addClass("game-over");
-      setTimeout(function () {
-        $("body").removeClass("game-over");
-      }, 200);
-      setInterval(function(){window.location.assign('cicak.html')},1000);
-    
+            setInterval(function () {
+                window
+                    .location
+                    .assign('cicak.html')
+            }, 500);
           }
-
     if (indeks === 27 && userSong[indeks-1] === jawabanSoal1[indeks-1]) {
         alert('Arnold Can Sing');
         alert('Lets Sing Cicak Cicak di Dinding');
         var how = new Audio ('sounds/play/cicak.mp3');
         how.playbackRate = 1.2;
         how.play();
-        // userSong = '';
-        // document.querySelector('.soal2').innerHTML = 'erti<span>|</span>tetwe<span>|</span>rwtre<span>|</span>qqyyuit<span>|</span>ertrewq';
-        // $( ".soal2" ).fadein( 1000, function() {
-        //     // Animation complete.
-        //   });
      }
     
 }

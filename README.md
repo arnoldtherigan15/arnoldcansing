@@ -7,7 +7,7 @@
 
 ### How to Play
 - Choose a Song in the playlist.
-- Click anywhere to start the game.
+- Click Start to play the game.
 - Remember the numbers and click the piano based on given numbers.
 - If you success Arnold can sing with you.
 

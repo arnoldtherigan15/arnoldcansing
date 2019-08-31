@@ -31,7 +31,7 @@ body {
   text-shadow: 3px 0 #000;
 }
 
-#title , .soal1, .soal2, #level-title {
+#title , .soal1 , .soal2, .soal3, .soal4 {
   font-size: 5vw;
   color: white;
   font-family: "Arvo", cursive;
@@ -151,8 +151,36 @@ footer {
   border-radius: 6px;
   font-family: "Arvo", cursive;
 }
-
-
+#level-title {
+  font-size: 5vw;
+  color: white;
+  font-family: "Arvo", cursive;
+  text-shadow: 0.5vw 0.5vw #000;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-top: 3vh;
+  /* opacity: 1; */
+}
+.fade {
+ opacity: 0; 
+transition: opacity 1s;
+}
+.fadeSoal {
+  opacity: 0; 
+ transition: opacity 20s;
+ }
+ .fadeSoal2 {
+  opacity: 0; 
+ transition: opacity 40s;
+ }
+ .fadeSoal3 {
+  opacity: 0; 
+ transition: opacity 40s;
+ }
+ .fadeSoal4 {
+  opacity: 0; 
+ transition: opacity 58s;
+ }
 @media (max-width: 575.98px) { 
 
   #title {

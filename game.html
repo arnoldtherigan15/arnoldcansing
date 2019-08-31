@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Arnold Can Sing!</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-</head>
-
-<body>
-
- <div class="container">
-  <!-- <h1 id="title"><img src="https://data.whicdn.com/images/136249419/large.png" alt="gambar"></h1> -->
-  <h1 id="level-title">Song Playlist</h1>
-
-  
-  <div class="playlist">
-  <button><a href="kartini.html">Ibu Kita Kartini</a></button>
-  <button><a href="cicak.html">Cicak Cicak di Dinding</a></button>
-  <button><a href="balonku.html">Balon Ku Ada Lima</a></button>
-  <button><a href="duamata.html">Dua Mata Saya</a></button>
-  <button><a href="doraemon.html">Doraemon</a></button>
-  </div>
-  <div class="menus">
-    <a href="index.html">Home</a>
-  </div>
- </div>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
- <script>
-    var how = new Audio ('sounds/start.mp3');
-how.playbackRate = 1.5;
-how.play();
-    </script>
-
-  <script src="index.js"></script>
-  <footer>
-    &copy; Arnold Therigan
-  </footer>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Arnold Can Sing!</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="level-title">Song Playlist</h1>
+            <div class="playlist">
+                <button>
+                    <a href="kartini.html">Ibu Kita Kartini</a>
+                </button>
+                <button>
+                    <a href="cicak.html">Cicak Cicak di Dinding</a>
+                </button>
+                <button>
+                    <a href="balonku.html">Balon Ku Ada Lima</a>
+                </button>
+                <button>
+                    <a href="duamata.html">Dua Mata Saya</a>
+                </button>
+                <button>
+                    <a href="doraemon.html">Doraemon</a>
+                </button>
+            </div>
+            <div class="menus">
+                <a href="index.html">Home</a>
+            </div>
+        </div>
+        <script>
+            var how = new Audio('sounds/start.mp3');
+            how.playbackRate = 1.5;
+            how.play();
+        </script>
+        <script src="index.js"></script>
+        <footer>
+            &copy; Arnold Therigan
+        </footer>
+    </body>
 
 </html>
